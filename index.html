@@ -40,22 +40,22 @@
 
         // Initial data strictly mapped from the PDF content pages to align perfectly.
         const INITIAL_DEPARTMENTS = [
-        { id: 1, name: "Cawangan, IADA & Agensi", target: 407, approved: 0, draft: 250, pending: 50, amendment: 10, noInfo: 97, category: "IADA & Agensi", description: "Cawangan utama & Kawasan Pembangunan Pertanian Bersepadu" },
-        { id: 2, name: "Kawasan Pembangunan Pertanian (IADA dll)", target: 73, approved: 0, draft: 35, pending: 10, amendment: 3, noInfo: 25, category: "IADA & Agensi", description: "Kawasan sekunder & agensi daerah khusus" },
-        { id: 3, name: "Bahagian Dasar dan Perancangan Strategik", target: 60, approved: 10, draft: 30, pending: 5, amendment: 2, noInfo: 13, category: "Bahagian", description: "Perangkaan dasar makro & perancangan industri makanan" },
-        { id: 4, name: "Bahagian Pengurusan Sumber Manusia", target: 53, approved: 15, draft: 22, pending: 3, amendment: 1, noInfo: 12, category: "Bahagian", description: "Latihan, struktur perjawatan & kebajikan kakitangan" },
-        { id: 5, name: "Bahagian Pentadbiran", target: 49, approved: 12, draft: 20, pending: 4, amendment: 1, noInfo: 12, category: "Bahagian", description: "Logistik, aset fizikal & keselamatan pejabat" },
-        { id: 6, name: "Bahagian Akaun", target: 43, approved: 18, draft: 15, pending: 2, amendment: 1, noInfo: 7, category: "Bahagian", description: "Penyata kewangan bulanan & audit dalaman akaun" },
-        { id: 7, name: "Bahagian Kewangan", target: 38, approved: 14, draft: 13, pending: 2, amendment: 1, noInfo: 8, category: "Bahagian", description: "Pengurusan bajet kementerian & perolehan kerajaan" },
-        { id: 8, name: "Pejabat Ketua Setiausaha", target: 37, approved: 22, draft: 9, pending: 1, amendment: 0, noInfo: 5, category: "Pejabat", description: "Pejabat tadbir urus tertinggi & penyelarasan KPKM" },
-        { id: 9, name: "Bahagian Perkhidmatan Digital", target: 36, approved: 11, draft: 16, pending: 2, amendment: 1, noInfo: 6, category: "Bahagian", description: "Prasarana ICT, pangkalan data & sistem aplikasi digital" },
-        { id: 10, name: "Bahagian Antarabangsa", target: 19, approved: 9, draft: 6, pending: 1, amendment: 0, noInfo: 3, category: "Bahagian", description: "Rundingan bilateral, eksport makanan & kerjasama global" },
-        { id: 11, name: "Unit Integriti", target: 17, approved: 17, draft: 0, pending: 0, amendment: 0, noInfo: 0, category: "Unit", description: "Tatakelakuan, pematuhan antirasuah & tataetika kerja" },
-        { id: 12, name: "Pejabat Menteri", target: 12, approved: 8, draft: 3, pending: 0, amendment: 0, noInfo: 1, category: "Pejabat", description: "Urus setia menteri, mesyuarat kabinet & parlimen" },
-        { id: 13, name: "Unit Penasihat Undang-Undang", target: 8, approved: 8, draft: 0, pending: 0, amendment: 0, noInfo: 0, category: "Unit", description: "Khidmat nasihat perundangan, draf enakmen & kontrak" },
-        { id: 14, name: "Seksyen Kawalselia Padi dan Beras", target: 6, approved: 6, draft: 0, pending: 0, amendment: 0, noInfo: 0, category: "Unit", description: "Pemantauan harga beras, lesen pengilang & subsidi padi" },
-        { id: 15, name: "Pejabat Timbalan Menteri", target: 6, approved: 4, draft: 1, pending: 0, amendment: 0, noInfo: 1, category: "Pejabat", description: "Urus setia timbalan menteri & lawatan rasmi korporat" },
-        { id: 16, name: "Lain-Lain Unit & Bahagian Kecil", target: 677, approved: 194, draft: 307, pending: 25, amendment: 4, noInfo: 97, category: "Lain-Lain", description: "Unit pentadbiran am, pejabat agensi cawangan negeri" }
+        { id: 1, name: "Cawangan, IADA & Agensi", target: 407, approved: 0, draft: 250, pending: 50, amendment: 10, noInfo: 97, category: "IADA & Agensi", description: "Cawangan utama & Kawasan Pe[...]
+        { id: 2, name: "Kawasan Pembangunan Pertanian (IADA dll)", target: 73, approved: 0, draft: 35, pending: 10, amendment: 3, noInfo: 25, category: "IADA & Agensi", description: "Kawasan sekun[...]
+        { id: 3, name: "Bahagian Dasar dan Perancangan Strategik", target: 60, approved: 10, draft: 30, pending: 5, amendment: 2, noInfo: 13, category: "Bahagian", description: "Perangkaan dasar m[...]
+        { id: 4, name: "Bahagian Pengurusan Sumber Manusia", target: 53, approved: 15, draft: 22, pending: 3, amendment: 1, noInfo: 12, category: "Bahagian", description: "Latihan, struktur perjaw[...]
+        { id: 5, name: "Bahagian Pentadbiran", target: 49, approved: 12, draft: 20, pending: 4, amendment: 1, noInfo: 12, category: "Bahagian", description: "Logistik, aset fizikal & keselamatan p[...]
+        { id: 6, name: "Bahagian Akaun", target: 43, approved: 18, draft: 15, pending: 2, amendment: 1, noInfo: 7, category: "Bahagian", description: "Penyata kewangan bulanan & audit dalaman akau[...]
+        { id: 7, name: "Bahagian Kewangan", target: 38, approved: 14, draft: 13, pending: 2, amendment: 1, noInfo: 8, category: "Bahagian", description: "Pengurusan bajet kementerian & perolehan k[...]
+        { id: 8, name: "Pejabat Ketua Setiausaha", target: 37, approved: 22, draft: 9, pending: 1, amendment: 0, noInfo: 5, category: "Pejabat", description: "Pejabat tadbir urus tertinggi & penye[...]
+        { id: 9, name: "Bahagian Perkhidmatan Digital", target: 36, approved: 11, draft: 16, pending: 2, amendment: 1, noInfo: 6, category: "Bahagian", description: "Prasarana ICT, pangkalan data [...]
+        { id: 10, name: "Bahagian Antarabangsa", target: 19, approved: 9, draft: 6, pending: 1, amendment: 0, noInfo: 3, category: "Bahagian", description: "Rundingan bilateral, eksport makanan & [...]
+        { id: 11, name: "Unit Integriti", target: 17, approved: 17, draft: 0, pending: 0, amendment: 0, noInfo: 0, category: "Unit", description: "Tatakelakuan, pematuhan antirasuah & tataetika ke[...]
+        { id: 12, name: "Pejabat Menteri", target: 12, approved: 8, draft: 3, pending: 0, amendment: 0, noInfo: 1, category: "Pejabat", description: "Urus setia menteri, mesyuarat kabinet & parlim[...]
+        { id: 13, name: "Unit Penasihat Undang-Undang", target: 8, approved: 8, draft: 0, pending: 0, amendment: 0, noInfo: 0, category: "Unit", description: "Khidmat nasihat perundangan, draf ena[...]
+        { id: 14, name: "Seksyen Kawalselia Padi dan Beras", target: 6, approved: 6, draft: 0, pending: 0, amendment: 0, noInfo: 0, category: "Unit", description: "Pemantauan harga beras, lesen pe[...]
+        { id: 15, name: "Pejabat Timbalan Menteri", target: 6, approved: 4, draft: 1, pending: 0, amendment: 0, noInfo: 1, category: "Pejabat", description: "Urus setia timbalan menteri & lawatan [...]
+        { id: 16, name: "Lain-Lain Unit & Bahagian Kecil", target: 677, approved: 194, draft: 307, pending: 25, amendment: 4, noInfo: 97, category: "Lain-Lain", description: "Unit pentadbiran am, [...]
         ];
 
         // Original MyPortfolio presentation slides restored with official script
@@ -74,17 +74,13 @@
             label: "Papar Semua Sektor di Dashboard",
             actionType: "category",
             value: "Semua"
-            },
-            podcasts: [
-            { speaker: "Syed", text: "Assalamualaikum dan salam sejahtera. Merujuk kepada arahan terkini daripada Ketua Setiausaha Kementerian Pertanian dan Keterjaminan Makanan, Datuk Seri Isham Bin Ishak, beliau menyeru agar semua Ketua Jabatan dan Setiausaha Bahagian mengambil tanggungjawab penuh bagi memastikan penyelesaian segera pengisian MyPortfolio ini. Berdasarkan pemerhatian hari ini, sasaran penuh bagi KPKM dilaraskan kepada 1,541 fail deskripsi perjawatan." },
-            { speaker: "Sarah", text: "Benar, Syed. Amanat dan gesaan KSU ini amat penting bagi menjamin kelancaran tadbir urus dan fungsi setiap agensi. Namun begitu, dengan hanya 348 fail yang telah disahkan siap, kita masih mempunyai baki tugasan yang agak kritikal dan perlu diselesaikan dengan kadar segera." }
-            ]
+            }
         },
         {
             id: 2,
             title: "2. Jurang Prestasi Semasa (22.61%)",
             subtitle: "Analisis Kelulusan vs. Proses Tindakan",
-            summary: "Sejumlah besar portfolio (77.39%) masih tersangkut dalam kitaran draf atau tiada maklumat langsung. Usaha perlu difokuskan pada kitaran penukaran draf kepada kelulusan rasmi.",
+            summary: "Sejumlah besar portfolio (77.39%) masih tersangkut dalam kitaran draf atau tiada maklumat langsung. Usaha perlu difokuskan pada kitaran penukaran draf kepada kelulusan rasmi.[...]
             bullets: [
             { text: "Lulus Penuh: Baru 348 fail selesai sepenuhnya di peringkat kementerian.", highlight: "348" },
             { text: "Kategori Draf Tertinggi: 687 fail bertaraf draf perlu tindakan pengesahan segera.", highlight: "687" },
@@ -94,11 +90,7 @@
             label: "Fokus Kategori 'Bahagian'",
             actionType: "category",
             value: "Bahagian"
-            },
-            podcasts: [
-            { speaker: "Syed", text: "Kadar penyelesaian semasa hanyalah 22.61 peratus. Ini bermakna lebih 1,190 fail masih dalam proses. Kenapa ada jurang besar begini, Sarah?" },
-            { speaker: "Sarah", text: "Jika kita tengok data, draf sedia ada sangat tinggi iaitu 687 fail! Mereka sudah mula menulis, cuma sangkut di fasa pengesah dan pelulus sahaja. Di sini kita perlukan tindakan segera." }
-            ]
+            }
         },
         {
             id: 3,
@@ -114,11 +106,7 @@
             label: "Saring Cawangan & IADA Terbanyak",
             actionType: "search",
             value: "IADA"
-            },
-            podcasts: [
-            { speaker: "Syed", text: "Menarik sekali, unit kecil seperti Unit Integriti dan Unit Undang-Undang mencatat rekod cemerlang 100 peratus siap. Mereka sangat pantas!" },
-            { speaker: "Sarah", text: "Ya, tapi masalah utama kita adalah di peringkat Cawangan IADA dan Agensi luar bandar. Backlog mereka mencecah 407 fail dan tiada satu pun lulus lagi. Fokus penyelesaian kita wajib ke arah mereka." }
-            ]
+            }
         },
         {
             id: 4,
@@ -134,49 +122,17 @@
             label: "Kembalikan Paparan Asal Dashboard",
             actionType: "reset",
             value: ""
-            },
-            podcasts: [
-            { speaker: "Syed", text: "Jadi, apa langkah seterusnya bagi membolehkan pengurusan tertinggi mempercepatkan proses kelulusan ini?" },
-            { speaker: "Sarah", text: "Kita mencadangkan penubuhan Task Force khas serta siri bengkel kelulusan bersemuka mengikut zon negeri untuk menyelesaikan baki draf sedia ada." }
-            ]
+            }
         }
         ];
 
-        // Utility: Convert Raw PCM to WAV blob URI
-        function pcmToWav(base64Data, mimeType) {
-            const binaryString = window.atob(base64Data);
-            const len = binaryString.length;
-            const bytes = new Uint8Array(len);
-            for (let i = 0; i < len; i++) bytes[i] = binaryString.charCodeAt(i);
-
-            let sampleRate = 24000;
-            const rateMatch = mimeType.match(/rate=(\d+)/);
-            if (rateMatch && rateMatch[1]) sampleRate = parseInt(rateMatch[1], 10);
-
-            const buffer = new ArrayBuffer(44 + bytes.length);
-            const view = new DataView(buffer);
-            const writeString = (view, offset, string) => {
-                for (let i = 0; i < string.length; i++) view.setUint8(offset + i, string.charCodeAt(i));
-            };
-
-            writeString(view, 0, 'RIFF');
-            view.setUint32(4, 36 + bytes.length, true);
-            writeString(view, 8, 'WAVE');
-            writeString(view, 12, 'fmt ');
-            view.setUint32(16, 16, true);
-            view.setUint16(20, 1, true);
-            view.setUint16(22, 1, true);
-            view.setUint32(24, sampleRate, true);
-            view.setUint32(28, sampleRate * 2, true);
-            view.setUint16(32, 2, true);
-            view.setUint16(34, 16, true);
-            writeString(view, 36, 'data');
-            view.setUint32(40, bytes.length, true);
-
-            const audioData = new Uint8Array(buffer, 44);
-            audioData.set(bytes);
-            return URL.createObjectURL(new Blob([buffer], { type: 'audio/wav' }));
-        }
+        // BOSS VOICE FILES - REPLACES AI TTS!
+        const BOSS_VOICE_FILES = [
+            './presenter_voice/slide1.ogg',
+            './presenter_voice/slide2.ogg',
+            './presenter_voice/slide3.ogg',
+            './presenter_voice/slide4.ogg'
+        ];
 
         function App() {
         const [departments, setDepartments] = useState(INITIAL_DEPARTMENTS);
@@ -198,11 +154,10 @@
         const [isGeneratingSpeech, setIsGeneratingSpeech] = useState(false);
         const [briefingProgress, setBriefingProgress] = useState(0);
         const [audioSpeed, setAudioSpeed] = useState(1);
-        const [activeSpeechHost, setActiveSpeechHost] = useState('Syed');
+        const [activeSpeechHost, setActiveSpeechHost] = useState('Boss');
         const [autoPlayOnPageTurn, setAutoPlayOnPageTurn] = useState(true);
         const isInitialRender = useRef(true);
         
-        const [cachedAudioURIs, setCachedAudioURIs] = useState({});
         const audioRef = useRef(null); 
         const [imageLoaded, setImageLoaded] = useState(true); 
         
@@ -212,60 +167,16 @@
             setTimeout(() => setNotification(null), 4000);
         };
 
-        // --- ENHANCED API LOGIC DENGAN EXPONENTIAL BACKOFF KEMBALI KEPADA ASAL ---
-        const callTtsWithRetry = async (payload, retries = 5, delay = 1000) => {
-            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=${apiKey}`;
-            for (let i = 0; i < retries; i++) {
-                try {
-                    const response = await fetch(url, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify(payload)
-                    });
-                    if (response.ok) {
-                        return await response.json();
-                    }
-                    if (!response.ok) throw new Error("Status API: " + response.status);
-                } catch (err) {
-                   // Retry sekiranya pelayan sibuk (rate limit/503)
-                }
-                await new Promise(res => setTimeout(res, delay));
-                delay *= 2; // Masa menunggu digandakan setiap kali percubaan gagal
-            }
-            throw new Error("Gagal menjana suara AI. Pelayan terlalu sibuk pada ketika ini.");
-        };
-
+        // Load and play BOSS voice file directly
         const loadSlideAudio = async (slideIndex) => {
-            if (cachedAudioURIs[slideIndex]) return cachedAudioURIs[slideIndex];
-
             setIsGeneratingSpeech(true);
-            const slide = SLIDES_DATA[slideIndex];
-            const concatenatedDialogue = slide.podcasts.map(p => `${p.speaker}: ${p.text}`).join("\n");
-
-            const ttsPayload = {
-                contents: [{ parts: [{ text: `Sampaikan taklimat ini dengan sebutan Bahasa Melayu yang formal, jelas, dan profesional: \n\n${concatenatedDialogue}` }] }],
-                generationConfig: {
-                    responseModalities: ["AUDIO"],
-                    speechConfig: { multiSpeakerVoiceConfig: { speakerVoiceConfigs: [
-                        { speaker: "Syed", voiceConfig: { prebuiltVoiceConfig: { voiceName: "Puck" } } },
-                        { speaker: "Sarah", voiceConfig: { prebuiltVoiceConfig: { voiceName: "Leda" } } }
-                    ]}}
-                },
-                model: "gemini-2.5-flash-preview-tts"
-            };
-
+            
             try {
-                const data = await callTtsWithRetry(ttsPayload);
-                const audioPart = data.candidates?.[0]?.content?.parts?.find(p => p.inlineData);
-                if (!audioPart || !audioPart.inlineData?.data) throw new Error("Tiada data suara dari AI.");
-
-                const rawBase64 = audioPart.inlineData.data;
-                const mimeType = audioPart.inlineData.mimeType || "audio/L16;rate=24000";
-                const wavUri = pcmToWav(rawBase64, mimeType);
+                const audioFile = BOSS_VOICE_FILES[slideIndex];
+                if (!audioFile) throw new Error("Fail suara tidak ditemui");
                 
-                setCachedAudioURIs(prev => ({...prev, [slideIndex]: wavUri}));
                 setIsGeneratingSpeech(false);
-                return wavUri;
+                return audioFile;
             } catch (err) {
                 setIsGeneratingSpeech(false);
                 showNotification(err.message, "warning");
@@ -277,10 +188,7 @@
         const forceStartPlayback = async () => {
             if (audioRef.current) audioRef.current.pause();
             
-            let targetUri = cachedAudioURIs[currentSlideIndex];
-            if (!targetUri) {
-                targetUri = await loadSlideAudio(currentSlideIndex);
-            }
+            const targetUri = await loadSlideAudio(currentSlideIndex);
 
             if (targetUri) {
                 if (!audioRef.current) audioRef.current = new Audio();
@@ -291,8 +199,6 @@
                     if (audioRef.current) {
                         const progress = (audioRef.current.currentTime / audioRef.current.duration) * 100;
                         setBriefingProgress(progress || 0);
-                        if (progress > 45) setActiveSpeechHost('Sarah');
-                        else setActiveSpeechHost('Syed');
                     }
                 };
 
@@ -331,7 +237,6 @@
             
             setIsPlayingBriefing(false);
             setBriefingProgress(0);
-            setActiveSpeechHost('Syed');
             setCurrentSlideIndex(index);
         };
 
@@ -495,7 +400,7 @@
         // Paparan Skrin Log Masuk Jika Belum Disahkan
         if (!isAuthenticated) {
             return (
-                <div className="min-h-screen bg-slate-900 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-teal-900 via-slate-900 to-black flex flex-col items-center justify-center p-4 selection:bg-emerald-500 selection:text-white">
+                <div className="min-h-screen bg-slate-900 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-teal-900 via-slate-900 to-black flex flex-col items-center justify-center px-4">
                     <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-8 rounded-3xl shadow-2xl max-w-sm w-full text-center space-y-6 transform transition-all">
                         <div className="w-20 h-20 bg-emerald-500/20 rounded-full flex items-center justify-center mx-auto border border-emerald-400/50 shadow-inner">
                             <i className="fa-solid fa-shield-halved text-[30px] text-emerald-400"></i>
@@ -511,7 +416,7 @@
                                     value={accessCode}
                                     onChange={(e) => { setAccessCode(e.target.value); setAuthError(''); }}
                                     placeholder="Masukkan Kod..." 
-                                    className="w-full text-center text-lg tracking-[0.3em] font-bold py-3 px-4 rounded-xl border border-white/20 bg-white/5 text-white placeholder-white/30 focus:ring-2 focus:ring-emerald-400 outline-none transition"
+                                    className="w-full text-center text-lg tracking-[0.3em] font-bold py-3 px-4 rounded-xl border border-white/20 bg-white/5 text-white placeholder-white/30 focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition"
                                 />
                                 {authError && <p className="text-[10px] text-rose-400 font-bold mt-2 animate-pulse">{authError}</p>}
                             </div>
@@ -530,7 +435,7 @@
             
             {notification && (
                 <div className="fixed top-5 right-5 z-50 flex items-center gap-3 p-4 rounded-xl shadow-2xl border bg-white animate-bounce">
-                <div className={`p-2 rounded-lg ${ notification.type === 'success' ? 'bg-emerald-100 text-emerald-700' : notification.type === 'info' ? 'bg-blue-100 text-blue-700' : 'bg-amber-100 text-amber-700' }`}>
+                <div className={`p-2 rounded-lg ${ notification.type === 'success' ? 'bg-emerald-100 text-emerald-700' : notification.type === 'info' ? 'bg-blue-100 text-blue-700' : 'bg-amber-100 text-amber-700'}`}>
                     {notification.type === 'success' ? <i className="fa-solid fa-circle-check text-[20px]"></i> : <i className="fa-solid fa-circle-exclamation text-[20px]"></i>}
                 </div>
                 <div><p className="text-sm font-semibold text-slate-900">{notification.message}</p></div>
@@ -546,7 +451,7 @@
                     
                     <div className="w-16 h-16 bg-white/95 rounded-xl shadow-inner flex items-center justify-center p-1.5 border border-emerald-500/30 shrink-0 relative">
                         {imageLoaded ? (
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Coat_of_arms_of_Malaysia.svg/500px-Coat_of_arms_of_Malaysia.svg.png" alt="Jata Negara Malaysia" className="w-full h-full object-contain filter drop-shadow-sm" onError={() => setImageLoaded(false)} />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Coat_of_arms_of_Malaysia.svg/500px-Coat_of_arms_of_Malaysia.svg.png" alt="Jata Negara Malaysia" className="w-full h-full object-contain" onError={() => setImageLoaded(false)} />
                         ) : ( <i className="fa-solid fa-building text-[32px] text-emerald-800"></i> )}
                     </div>
 
@@ -554,15 +459,15 @@
                         <span className="text-[10px] font-bold tracking-widest text-emerald-300 uppercase block">KEMENTERIAN PERTANIAN DAN KETERJAMINAN MAKANAN</span>
                         <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white mt-0.5">MyPortfolio Executive Briefing Workspace <span className="text-amber-400">KPKM</span></h1>
                         <p className="text-xs text-emerald-100/80 mt-1 flex items-center gap-2">
-                        <i className="fa-solid fa-chart-pulse text-[12px] text-emerald-400 animate-pulse"></i> Unified Jata Negara Portal & NotebookLM Dynamic Multi-Speaker Workstation
+                        <i className="fa-solid fa-chart-pulse text-[12px] text-emerald-400 animate-pulse"></i> 🎙️ Boss Voice Interactive Briefing System
                         </p>
                     </div>
                     </div>
                     
                     <div className="flex flex-wrap items-center gap-2 bg-emerald-950/50 p-1 rounded-xl border border-emerald-700/30">
                     <span className="text-[11px] font-medium text-emerald-200 px-2">Sistem Sasaran:</span>
-                    <button onClick={() => { setTargetSystem('1541'); showNotification('Sistem Sasaran dilaraskan ke 1,541 fail terbaharu!', 'info'); }} className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${targetSystem === '1541' ? 'bg-amber-400 text-emerald-950 shadow' : 'text-emerald-100 hover:bg-white/5'}`}>1,541 Terkini</button>
-                    <button onClick={() => { setTargetSystem('1539'); showNotification('Sistem Sasaran ditukar ke 1,539 fail asal kementerian.', 'info'); }} className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${targetSystem === '1539' ? 'bg-amber-400 text-emerald-950 shadow' : 'text-emerald-100 hover:bg-white/5'}`}>1,539 Asal</button>
+                    <button onClick={() => { setTargetSystem('1541'); showNotification('Sistem Sasaran dilaraskan ke 1,541 fail terbaharu!', 'info'); }} className={`px-3 py-1 rounded-lg text-xs font-bold transition ${ targetSystem === '1541' ? 'bg-emerald-500 text-white' : 'bg-emerald-900/50 text-emerald-200 hover:bg-emerald-800' }`}>1,541</button>
+                    <button onClick={() => { setTargetSystem('1539'); showNotification('Sistem Sasaran ditukar ke 1,539 fail asal kementerian.', 'info'); }} className={`px-3 py-1 rounded-lg text-xs font-bold transition ${ targetSystem === '1539' ? 'bg-emerald-500 text-white' : 'bg-emerald-900/50 text-emerald-200 hover:bg-emerald-800' }`}>1,539</button>
                     </div>
                 </div>
                 </div>
@@ -573,12 +478,12 @@
                 <div className="mb-6 bg-white border border-emerald-100 rounded-2xl p-4 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center shrink-0">
-                    <i className="fa-solid fa-compass text-[20px] animate-spin"></i>
+                    <i className="fa-solid fa-microphone text-[20px] animate-pulse"></i>
                     </div>
                     <div>
-                    <p className="text-xs text-slate-400 font-bold uppercase tracking-wider">Mod Penyampaian Aktif</p>
+                    <p className="text-xs text-slate-400 font-bold uppercase tracking-wider">Mod Suara Bos Aktif</p>
                     <p className="text-sm font-semibold text-slate-800">
-                        Sila gunakan Panel Taklimat Kiri semasa mesyuarat berlangsung. Klik pada tindakan slaid untuk menyelaraskan visual dashboard kanan.
+                        Tukar slide di sebelah kiri → Suara Bos dimainkan secara automatik! 🎤
                     </p>
                     </div>
                 </div>
@@ -598,8 +503,8 @@
                     
                     <div className="p-5 bg-gradient-to-r from-slate-950 to-slate-900 border-b border-slate-800 flex items-center justify-between">
                         <div className="flex items-center gap-2">
-                        <i className="fa-solid fa-person-chalkboard text-[18px] text-amber-400"></i>
-                        <span className="text-xs font-bold uppercase tracking-wider text-slate-300">NotebookLM Briefing Center</span>
+                        <i className="fa-solid fa-microphone text-[18px] text-amber-400 animate-pulse"></i>
+                        <span className="text-xs font-bold uppercase tracking-wider text-slate-300">🎙️ Boss Voice Briefing Center</span>
                         </div>
                         <span className="text-[10px] bg-amber-500/20 text-amber-400 font-bold px-2 py-0.5 rounded border border-amber-500/30">SLIDE {currentSlideIndex + 1} OF {SLIDES_DATA.length}</span>
                     </div>
@@ -620,7 +525,7 @@
                         {currentSlide.bullets.map((bullet, bIdx) => {
                             const isSelected = bullet.text.includes(searchQuery) || searchQuery.includes(bullet.highlight);
                             return (
-                            <div key={bIdx} className={`flex items-start gap-3 p-2.5 rounded-xl border transition ${ isSelected ? 'bg-emerald-950/30 border-emerald-500/50 text-white' : 'bg-slate-950/20 border-transparent text-slate-300' }`}>
+                            <div key={bIdx} className={`flex items-start gap-3 p-2.5 rounded-xl border transition ${ isSelected ? 'bg-emerald-950/30 border-emerald-500/50 text-white' : 'bg-slate-800/50 border-slate-700/30 text-slate-300' }`}>
                                 <div className="w-5 h-5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5 text-xs font-black">{bIdx + 1}</div>
                                 <p className="text-xs">
                                 {bullet.text.split(bullet.highlight).map((part, pIdx, arr) => (
@@ -635,7 +540,7 @@
                         </div>
 
                         <div className="pt-4 border-t border-slate-800 flex items-center justify-between gap-4">
-                        <button onClick={() => executeSlideAction(currentSlide.interactiveAction)} className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold rounded-xl transition flex items-center gap-2 shadow">
+                        <button onClick={() => executeSlideAction(currentSlide.interactiveAction)} className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold rounded-xl transition flex items-center gap-1">
                             <i className="fa-solid fa-sliders text-[13px] text-emerald-200"></i> {currentSlide.interactiveAction.label}
                         </button>
                         <span className="text-[10px] text-slate-400 hidden sm:inline">← Selaraskan Dashboard Kanan</span>
@@ -643,17 +548,17 @@
                     </div>
 
                     <div className="p-4 bg-slate-950/80 border-t border-slate-800 flex items-center justify-between gap-4">
-                        <button disabled={currentSlideIndex === 0} onClick={() => handleSlideChange(currentSlideIndex - 1)} className={`p-2 rounded-lg transition ${ currentSlideIndex === 0 ? 'text-slate-600 cursor-not-allowed' : 'text-slate-300 hover:bg-slate-800' }`} title="Slaid Sebelumnya">
+                        <button disabled={currentSlideIndex === 0} onClick={() => handleSlideChange(currentSlideIndex - 1)} className={`p-2 rounded-lg transition ${ currentSlideIndex === 0 ? 'text-slate-600 cursor-not-allowed' : 'text-white hover:bg-slate-800' }`}>
                         <i className="fa-solid fa-chevron-left text-[20px]"></i>
                         </button>
 
                         <div className="flex items-center gap-1.5">
                         {SLIDES_DATA.map((_, sIdx) => (
-                            <button key={sIdx} onClick={() => handleSlideChange(sIdx)} className={`h-2.5 rounded-full transition-all ${ currentSlideIndex === sIdx ? 'w-8 bg-amber-400' : 'w-2.5 bg-slate-700 hover:bg-slate-600' }`} />
+                            <button key={sIdx} onClick={() => handleSlideChange(sIdx)} className={`h-2.5 rounded-full transition-all ${ currentSlideIndex === sIdx ? 'w-8 bg-amber-400' : 'w-2.5 bg-slate-700 hover:bg-slate-600' }`}></button>
                         ))}
                         </div>
 
-                        <button disabled={currentSlideIndex === SLIDES_DATA.length - 1} onClick={() => handleSlideChange(currentSlideIndex + 1)} className={`p-2 rounded-lg transition ${ currentSlideIndex === SLIDES_DATA.length - 1 ? 'text-slate-600 cursor-not-allowed' : 'text-slate-300 hover:bg-slate-800' }`} title="Slaid Seterusnya">
+                        <button disabled={currentSlideIndex === SLIDES_DATA.length - 1} onClick={() => handleSlideChange(currentSlideIndex + 1)} className={`p-2 rounded-lg transition ${ currentSlideIndex === SLIDES_DATA.length - 1 ? 'text-slate-600 cursor-not-allowed' : 'text-white hover:bg-slate-800' }`}>
                         <i className="fa-solid fa-chevron-right text-[20px]"></i>
                         </button>
                     </div>
@@ -663,19 +568,19 @@
                     <div className="bg-white rounded-3xl border border-slate-100 shadow-md p-5 space-y-4">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center gap-2">
-                        <div className="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                        <div className="w-8 h-8 rounded-lg bg-red-50 text-red-600 flex items-center justify-center">
                             <i className="fa-solid fa-microphone text-[16px]"></i>
                         </div>
                         <div>
-                            <h3 className="text-xs font-black text-slate-800 uppercase tracking-wider">AI Audio Briefing Overview</h3>
-                            <p className="text-[10px] text-slate-400">NotebookLM Dual-Host Generated Summary</p>
+                            <h3 className="text-xs font-black text-slate-800 uppercase tracking-wider">🎙️ Boss Voice Playback</h3>
+                            <p className="text-[10px] text-slate-400">Your Boss's Direct Voice Messages</p>
                         </div>
                         </div>
                         
                         <div className="flex items-center gap-1 text-[10px] bg-slate-100 p-0.5 rounded-lg">
                         <span className="text-slate-500 px-1">Kelajuan:</span>
                         {[1, 1.5, 2].map((speed) => (
-                            <button key={speed} onClick={() => setAudioSpeed(speed)} className={`px-1.5 py-0.5 rounded text-[9px] font-bold ${ audioSpeed === speed ? 'bg-indigo-600 text-white' : 'text-slate-600 hover:bg-slate-200' }`}>
+                            <button key={speed} onClick={() => setAudioSpeed(speed)} className={`px-1.5 py-0.5 rounded text-[9px] font-bold ${ audioSpeed === speed ? 'bg-red-600 text-white' : 'bg-slate-200 text-slate-700 hover:bg-slate-300' }`}>
                             {speed}x
                             </button>
                         ))}
@@ -684,21 +589,21 @@
 
                     <div className="bg-slate-50 rounded-2xl p-4 border border-slate-100 space-y-3">
                         <div className="flex items-center gap-3">
-                        <button onClick={togglePlayButton} disabled={isGeneratingSpeech} className={`w-12 h-12 rounded-full flex items-center justify-center text-white shrink-0 shadow-lg transition transform active:scale-95 ${ isGeneratingSpeech ? 'bg-indigo-300 cursor-not-allowed' : isPlayingBriefing ? 'bg-rose-600 hover:bg-rose-500' : 'bg-indigo-600 hover:bg-indigo-500' }`}>
-                            {isGeneratingSpeech ? ( <i className="fa-solid fa-spinner fa-spin text-[18px] text-white"></i> ) : isPlayingBriefing ? ( <i className="fa-solid fa-pause text-[18px] text-white"></i> ) : ( <i className="fa-solid fa-play text-[18px] ml-1 text-white"></i> )}
+                        <button onClick={togglePlayButton} disabled={isGeneratingSpeech} className={`w-12 h-12 rounded-full flex items-center justify-center text-white shrink-0 shadow-lg transition ${ isPlayingBriefing ? 'bg-red-600 hover:bg-red-500' : 'bg-red-500 hover:bg-red-600' } disabled:opacity-50`}>
+                            {isGeneratingSpeech ? ( <i className="fa-solid fa-spinner fa-spin text-[18px] text-white"></i> ) : isPlayingBriefing ? ( <i className="fa-solid fa-pause text-[18px] text-white"></i> ) : ( <i className="fa-solid fa-play text-[18px] text-white"></i> )}
                         </button>
 
                         <div className="flex-1 space-y-1.5">
                             <div className="flex items-center justify-between text-[11px] font-semibold">
-                            <span className="text-slate-700">Analisis Kualitatif KPKM</span>
-                            <span className="text-indigo-600 font-bold flex items-center gap-1">
-                                <i className={"fa-solid fa-tower-broadcast text-[12px] " + (isPlayingBriefing ? "animate-pulse" : "")}></i>
-                                {isGeneratingSpeech ? 'Menyediakan Suara...' : isPlayingBriefing ? 'Mendengar Suara...' : 'Sedia Dimainkan'}
+                            <span className="text-slate-700">Boss Voice Message</span>
+                            <span className="text-red-600 font-bold flex items-center gap-1">
+                                <i className={`fa-solid fa-tower-broadcast text-[12px] ` + (isPlayingBriefing ? "animate-pulse" : "")}></i>
+                                {isGeneratingSpeech ? 'Sedia Suara...' : isPlayingBriefing ? 'Mendengar...' : 'Sedia Dimainkan'}
                             </span>
                             </div>
 
                             <div className="relative w-full h-2 bg-slate-200 rounded-full overflow-hidden cursor-pointer">
-                            <div className="absolute left-0 top-0 h-full bg-gradient-to-r from-indigo-500 to-teal-500 transition-all duration-100" style={{ width: `${briefingProgress}%` }} />
+                            <div className="absolute left-0 top-0 h-full bg-gradient-to-r from-red-500 to-red-600 transition-all duration-100" style={{ width: `${briefingProgress}%` }} />
                             </div>
 
                             <div className="flex items-center justify-between text-[9px] text-slate-400">
@@ -710,11 +615,11 @@
 
                         <div className="pt-2 border-t border-slate-200/60 flex items-center justify-between">
                         <span className="text-[10px] text-slate-500 flex items-center gap-1 font-semibold">
-                            <i className="fa-solid fa-volume-high text-[12px] text-indigo-500"></i> Auto-Ucap (Tukar Slaid & Bercakap)
+                            <i className="fa-solid fa-volume-high text-[12px] text-red-500"></i> Auto-Mainkan (Tukar Slaid & Mainkan)
                         </span>
                         <label className="relative inline-flex items-center cursor-pointer">
-                            <input type="checkbox" checked={autoPlayOnPageTurn} onChange={(e) => { setAutoPlayOnPageTurn(e.target.checked); showNotification(e.target.checked ? "Auto-Ucap diaktifkan!" : "Auto-Ucap dinonaktifkan.", "info"); }} className="sr-only peer" />
-                            <div className="w-9 h-5 bg-slate-200 hover:bg-slate-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-indigo-600"></div>
+                            <input type="checkbox" checked={autoPlayOnPageTurn} onChange={(e) => { setAutoPlayOnPageTurn(e.target.checked); showNotification(e.target.checked ? "Auto-Mainkan diaktifkan!" : "Auto-Mainkan dimatikan!", "info"); }} className="sr-only peer" />
+                            <div className="w-9 h-5 bg-slate-200 hover:bg-slate-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-red-500"></div>
                         </label>
                         </div>
 
@@ -723,46 +628,11 @@
                             {[...Array(18)].map((_, wIdx) => {
                             const heights = [12, 24, 8, 32, 16, 28, 12, 36, 16, 24, 8, 32, 16, 28, 12, 36, 16, 12];
                             const randomAnim = Math.random() * 0.5 + 0.5;
-                            return ( <div key={wIdx} style={{ height: `${heights[wIdx % heights.length]}px`, transform: `scaleY(${randomAnim})`, animation: `bounce 1s ease-in-out infinite alternate` }} className="w-1 bg-indigo-500/80 rounded-full" /> );
+                            return ( <div key={wIdx} style={{ height: `${heights[wIdx % heights.length]}px`, transform: `scaleY(${randomAnim})`, animation: `bounce 1s ease-in-out infinite alternate`, backgroundColor: '#ef4444' }}></div> );
                             })}
                         </div>
                         )}
                     </div>
-
-                    <div className="space-y-2.5">
-                        <span className="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest block">Transkrip Sedia-Dengar (Diselaraskan Slaid):</span>
-                        
-                        <div className="space-y-3 max-h-[170px] overflow-y-auto pr-1">
-                        {currentSlide.podcasts.map((speaker, sIdx) => {
-                            const isSpeakingNow = isPlayingBriefing && ((sIdx === 0 && briefingProgress <= 45) || (sIdx === 1 && briefingProgress > 45));
-
-                            return (
-                            <div key={sIdx} className={`p-3 rounded-2xl border transition ${ isSpeakingNow ? 'bg-indigo-50/70 border-indigo-200 text-slate-800 scale-[1.01] shadow-sm' : 'bg-slate-50/50 border-slate-100 text-slate-500' }`}>
-                                <div className="flex items-center justify-between">
-                                <span className={`text-[10px] font-black uppercase tracking-wider ${ isSpeakingNow ? 'text-indigo-600' : 'text-slate-400' }`}>
-                                    🎙️ {speaker.speaker}
-                                </span>
-                                {isSpeakingNow && (<span className="text-[8px] bg-indigo-600 text-white font-bold px-1.5 py-0.5 rounded-full animate-pulse">AKTIF</span>)}
-                                </div>
-                                <p className="text-xs mt-1.5 leading-relaxed font-medium">"{speaker.text}"</p>
-                            </div>
-                            );
-                        })}
-                        </div>
-                    </div>
-
-                    </div>
-
-                    <div className="bg-white rounded-3xl border border-slate-100 shadow-md p-5 space-y-3">
-                    <div className="flex items-center gap-2 border-b border-slate-100 pb-2">
-                        <i className="fa-solid fa-book-open text-[15px] text-emerald-700"></i>
-                        <span className="text-xs font-black text-slate-800 uppercase tracking-wide">Nota Urus Setia / Speaker Notes</span>
-                    </div>
-                    <ul className="space-y-2 text-xs text-slate-600 list-disc pl-4 leading-relaxed">
-                        <li>Beri penekanan kepada kadar <strong>22.61% siap</strong> sebagai metrik kritikal tindakan.</li>
-                        <li>Gunakan filter cawangan untuk tunjuk backlog <strong>IADA</strong> kepada KSU semasa taklimat.</li>
-                        <li>Kemukakan data simulasi draf baharu sekiranya ada perkembangan dari negeri.</li>
-                    </ul>
                     </div>
 
                 </section>
@@ -782,7 +652,7 @@
                         <button onClick={resetSimulation} className="p-2 bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-xl transition" title="Reset Tapisan & Simulasi">
                             <i className="fa-solid fa-rotate-left text-[14px]"></i>
                         </button>
-                        <button onClick={exportReport} className="px-3 py-1.5 bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold rounded-xl transition flex items-center gap-1 shadow-sm">
+                        <button onClick={exportReport} className="px-3 py-1.5 bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold rounded-xl transition flex items-center gap-1 shadow-md">
                             <i className="fa-solid fa-download text-[13px]"></i> Muat Turun CSV
                         </button>
                         </div>
@@ -791,12 +661,14 @@
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                         <div className="relative">
                         <i className="fa-solid fa-magnifying-glass text-[14px] absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400"></i>
-                        <input type="text" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder="Cari bahagian..." className="w-full pl-9 pr-4 py-2 text-xs rounded-xl border border-slate-200 bg-white text-slate-800 outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 transition" />
+                        <input type="text" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder="Cari bahagian..." className="w-full pl-9 pr-4 py-2 text-xs rounded-xl border border-slate-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition" />
                         </div>
 
                         <div className="flex items-center gap-1 overflow-x-auto p-0.5 bg-slate-100 rounded-xl">
                         {['Semua', 'Bahagian', 'IADA & Agensi', 'Pejabat', 'Unit'].map((cat) => (
-                            <button key={cat} onClick={() => setSelectedCategory(cat)} className={`px-3 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all ${ selectedCategory === cat ? 'bg-white text-slate-800 shadow-sm' : 'text-slate-500 hover:text-slate-800' }`}>{cat}</button>
+                            <button key={cat} onClick={() => setSelectedCategory(cat)} className={`px-3 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap transition-all ${ selectedCategory === cat ? 'bg-teal-600 text-white' : 'bg-transparent text-slate-600 hover:bg-slate-200' }`}>
+                            {cat}
+                            </button>
                         ))}
                         </div>
                     </div>
@@ -851,7 +723,7 @@
                                 const dashArray = `${percentage} ${100 - percentage}`;
                                 const dashOffset = 100 - cumulativePercentage + 25; 
                                 cumulativePercentage += percentage;
-                                return ( <circle key={index} cx="50" cy="50" r="38" stroke={slice.color} strokeWidth={hoveredSlice === index ? 15 : 12} strokeDasharray={dashArray} strokeDashoffset={dashOffset} strokeLinecap="round" fill="transparent" pathLength="100" className="transition-all duration-300 cursor-pointer" onMouseEnter={() => setHoveredSlice(index)} onMouseLeave={() => setHoveredSlice(null)} /> );
+                                return ( <circle key={index} cx="50" cy="50" r="38" stroke={slice.color} strokeWidth={hoveredSlice === index ? 15 : 12} strokeDasharray={dashArray} strokeDashoffset={dashOffset} strokeLinecap="round" className="transition-all cursor-pointer" onMouseEnter={() => setHoveredSlice(index)} onMouseLeave={() => setHoveredSlice(null)} /> );
                             });
                             })()}
                         </svg>
@@ -983,10 +855,10 @@
                             {filteredDepartments.map((dept) => {
                             const isStellar = dept.approved === dept.target;
                             return (
-                                <tr key={dept.id} className={`hover:bg-slate-50/70 transition ${ selectedDeptId === dept.id ? 'bg-emerald-50/45' : '' }`} onClick={() => setSelectedDeptId(dept.id === selectedDeptId ? null : dept.id)}>
+                                <tr key={dept.id} className={`hover:bg-slate-50/70 transition ${ selectedDeptId === dept.id ? 'bg-emerald-50/45' : '' }`} onClick={() => setSelectedDeptId(dept.id)}>
                                 <td className="py-3 px-4">
                                     <div className="flex items-center gap-2">
-                                    <div className={`w-6 h-6 rounded-lg flex items-center justify-center font-bold text-[10px] shrink-0 ${ isStellar ? 'bg-emerald-100 text-emerald-700' : 'bg-slate-100 text-slate-600' }`}>
+                                    <div className={`w-6 h-6 rounded-lg flex items-center justify-center font-bold text-[10px] shrink-0 ${ isStellar ? 'bg-emerald-100 text-emerald-700' : 'bg-slate-100 text-slate-700' }`}>
                                         <i className="fa-solid fa-building text-[11px]"></i>
                                     </div>
                                     <span className="font-bold text-slate-700 truncate max-w-[180px]" title={dept.name}>{dept.name}</span>
@@ -999,8 +871,8 @@
                                 <td className="py-3 px-2 text-center font-semibold text-slate-400">{dept.noInfo}</td>
                                 <td className="py-3 px-4 text-right" onClick={(e) => e.stopPropagation()}>
                                     <div className="flex items-center justify-end gap-1.5">
-                                    <button onClick={() => simulateSubmitDraft(dept.id)} disabled={dept.noInfo === 0} className={`px-2 py-1 rounded text-[9px] font-bold transition ${ dept.noInfo > 0 ? 'bg-slate-100 text-slate-700 hover:bg-slate-200' : 'opacity-30 cursor-not-allowed bg-slate-50 text-slate-300' }`} title="Tambah Deraf Baharu">+ Deraf</button>
-                                    <button onClick={() => simulateApproveDraft(dept.id)} disabled={dept.draft === 0} className={`px-2 py-1 rounded text-[9px] font-bold transition ${ dept.draft > 0 ? 'bg-emerald-100 text-emerald-800 hover:bg-emerald-200' : 'opacity-30 cursor-not-allowed bg-slate-50 text-slate-300' }`} title="Sahkan & Luluskan Deraf">✓ Lulus</button>
+                                    <button onClick={() => simulateApproveDraft(dept.id)} disabled={dept.draft === 0} className={`px-2 py-1 rounded text-[8px] font-bold transition ${ dept.draft === 0 ? 'bg-slate-100 text-slate-400 cursor-not-allowed' : 'bg-emerald-100 text-emerald-700 hover:bg-emerald-200' }`}>Lulus</button>
+                                    <button onClick={() => simulateSubmitDraft(dept.id)} disabled={dept.noInfo === 0} className={`px-2 py-1 rounded text-[8px] font-bold transition ${ dept.noInfo === 0 ? 'bg-slate-100 text-slate-400 cursor-not-allowed' : 'bg-blue-100 text-blue-700 hover:bg-blue-200' }`}>Draf</button>
                                     </div>
                                 </td>
                                 </tr>
@@ -1009,23 +881,28 @@
                         </tbody>
                         </table>
                     </div>
+                    </div>
 
-                    <div className="p-3 bg-slate-50 border-t border-slate-100 text-[10px] text-slate-400 flex items-center justify-between">
-                        <span>Dipaparkan {filteredDepartments.length} rekod ditapis.</span>
-                        <span className="text-emerald-700 font-bold hover:underline cursor-pointer" onClick={simulateApproveAllPending}>
-                        Luluskan Semua Menunggu Tindakan
-                        </span>
+                    <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-3xl border border-emerald-200 shadow-sm p-6 space-y-3">
+                    <div className="flex items-start gap-3">
+                        <div className="w-10 h-10 rounded-full bg-emerald-500/20 flex items-center justify-center shrink-0">
+                        <i className="fa-solid fa-lightbulb text-[18px] text-emerald-700"></i>
+                        </div>
+                        <div className="space-y-2">
+                        <h4 className="font-black text-slate-800 text-sm">Fungsi Pemimpin Eksekutif</h4>
+                        <div className="space-y-1.5 text-[10px] text-slate-600 leading-relaxed">
+                            <p>✅ <strong>Simulasi Persetujuan Pukal:</strong> Klik "Lulus" untuk mensimulasikan kelulusan draf secara langsung dalam jadual.</p>
+                            <p>✅ <strong>Maklumat Suara Bos Otomatis:</strong> Setiap perubahan slide memainkan mesej suara Bos anda secara automatik.</p>
+                            <p>✅ <strong>Eksport Data:</strong> Muat turun laporan CSV untuk penyampaian pengurusan tertinggi.</p>
+                            <p>✅ <strong>Kawalan Kelajuan Suara:</strong> Laras kelajuan mainkan 1x, 1.5x, atau 2x untuk kemudahan mendengarkan.</p>
+                        </div>
+                        </div>
                     </div>
                     </div>
 
                 </section>
 
                 </div>
-
-                <footer className="text-center text-xs text-slate-400 py-8 border-t border-slate-200 mt-12 space-y-2">
-                <p>© {new Date().getFullYear()} Kementerian Pertanian dan Keterjaminan Makanan (KPKM). Urus Setia MyPortfolio Kebangsaan.</p>
-                <p>Paparan data disegerakan secara automatik berasaskan rekod berpusat pentadbiran tertinggi kementerian.</p>
-                </footer>
 
             </main>
             </div>
