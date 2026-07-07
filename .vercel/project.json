@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_9kuuZAWABjeJVnvYH8I0dzkN8aHJ",
+  "orgId": "team_c1jhpmvEsYFsWqpMCRbVuBNE",
+  "projectName": "myportfolio_dashboard--9-",
+  "settings": {
+    "createdAt": 1783357808141,
+    "framework": null,
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "24.x"
+  }
+}
